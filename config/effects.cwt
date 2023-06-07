@@ -1278,7 +1278,11 @@ alias[effect:create_country] = {
 	## cardinality = 0..1
 	adjective = random
 	## cardinality = 0..1
+	###Sets country adjective. Allowed values are <string in localisation>/<string written in quotes e.g. "Korean">
 	adjective = localisation
+	## cardinality = 0..1
+	###Sets country adjective. Allowed values are <string in localisation>/<string written in quotes e.g. "Korean">
+	adjective = scalar
 	## cardinality = 0..1
 	###default is in fact, the default
 	type = <country_type>
@@ -1291,10 +1295,11 @@ alias[effect:create_country] = {
 	## cardinality = 0..1
 	name_list = scope_group[target_country]
 	## cardinality = 0..1
-	ship_prefix = scalar	#should be string or a scope
+	ship_prefix = scalar
 	## cardinality = 0..1
-	###Sets country adjective. Allowed values are <string in localisation>/<string written in quotes e.g. "Korean">
-	adjective = localisation
+	ship_prefix = localisation
+	## cardinality = 0..1
+	ship_prefix = scope_group[target_country]
 	## cardinality = 0..1
 	authority = random
 	## cardinality = 0..1
