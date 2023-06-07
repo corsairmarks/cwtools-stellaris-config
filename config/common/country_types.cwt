@@ -106,12 +106,10 @@ country_type = {
 	blocks_pirate = bool
 	## cardinality = 0..1
 	### This is a star flag
-	#TODO Work out how to make this a star flag
-	home_system = scalar
+	home_system = value[star_flag]
 	## cardinality = 0..1
 	### This is a star flag
-	#TODO Work out how to make this a star flag
-	hub_system = scalar
+	hub_system = value[star_flag]
 	## cardinality = 0..1
 	default_ships = bool
 	## cardinality = 0..1
@@ -249,8 +247,7 @@ country_type = {
 	}
 
 	## cardinality = 0..1
-	replace_scope = { this = country root = country }
-	## cardinality = 0..1
+	## replace_scope = { this = country root = country }
 	trade_routes_available = {
 		alias_name[trigger] = alias_match_left[trigger]
 	}
