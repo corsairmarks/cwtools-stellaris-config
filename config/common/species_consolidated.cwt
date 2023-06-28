@@ -349,7 +349,7 @@ citizenship_type = {
 	### tooltip that appears on each Pop with this species right
 	pop_tooltip = localisation
 	## cardinality = 0..1
-	### from of the sprite "GFX_pop_status" that is overlaid on each Pop's icon
+	### frame of the sprite "GFX_pop_status" that is overlaid on each Pop's icon
 	pop_status_frame = int
 
 	## cardinality = 0..1
@@ -415,7 +415,7 @@ colonization_control = {
 	### tooltip that appears on each Pop with this species right
 	pop_tooltip = localisation
 	## cardinality = 0..1
-	### from of the sprite "GFX_pop_status" that is overlaid on each Pop's icon
+	### frame of the sprite "GFX_pop_status" that is overlaid on each Pop's icon
 	pop_status_frame = int
 
 	## cardinality = 0..1
@@ -473,10 +473,6 @@ living_standard = {
 	free_pop_modifier = {
 		alias_name[modifier] = alias_match_left[modifier]
 	}
-
-	## cardinality = 0..1
-	### tooltip that appears on each Pop with this species right
-	pop_tooltip = localisation
 
 	## cardinality = 0..1
 	## replace_scope = { this = species root = species from = country }
@@ -541,7 +537,7 @@ migration_control = {
 	### tooltip that appears on each Pop with this species right
 	pop_tooltip = localisation
 	## cardinality = 0..1
-	### from of the sprite "GFX_pop_status" that is overlaid on each Pop's icon
+	### frame of the sprite "GFX_pop_status" that is overlaid on each Pop's icon
 	pop_status_frame = int
 
 	## cardinality = 0..1
@@ -604,7 +600,7 @@ military_service_type = {
 	### tooltip that appears on each Pop with this species right
 	pop_tooltip = localisation
 	## cardinality = 0..1
-	### from of the sprite "GFX_pop_status" that is overlaid on each Pop's icon
+	### frame of the sprite "GFX_pop_status" that is overlaid on each Pop's icon
 	pop_status_frame = int
 
 	## cardinality = 0..1
@@ -670,7 +666,7 @@ population_control = {
 	### tooltip that appears on each Pop with this species right
 	pop_tooltip = localisation
 	## cardinality = 0..1
-	### from of the sprite "GFX_pop_status" that is overlaid on each Pop's icon
+	### frame of the sprite "GFX_pop_status" that is overlaid on each Pop's icon
 	pop_status_frame = int
 
 	## cardinality = 0..1
@@ -737,7 +733,7 @@ purge_type = {
 	### tooltip that appears on each Pop with this species right
 	pop_tooltip = localisation
 	## cardinality = 0..1
-	### from of the sprite "GFX_pop_status" that is overlaid on each Pop's icon
+	### frame of the sprite "GFX_pop_status" that is overlaid on each Pop's icon
 	pop_status_frame = int
 
 	## cardinality = 0..1
@@ -804,7 +800,7 @@ slavery_type = {
 	### tooltip that appears on each Pop with this species right
 	pop_tooltip = localisation
 	## cardinality = 0..1
-	### from of the sprite "GFX_pop_status" that is overlaid on each Pop's icon
+	### frame of the sprite "GFX_pop_status" that is overlaid on each Pop's icon
 	pop_status_frame = int
 
 	## cardinality = 0..1
